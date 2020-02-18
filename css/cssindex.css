@@ -1,0 +1,36 @@
+*{
+  background-image: url(../images/mario.gif);
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: color-dodge;
+}
+
+body {
+  text-align: center;
+
+}
+h1 {
+  margin: 0 auto;
+  font-family: "Major Mono Display", monospace;
+  font-size: 48px;
+  margin: 5%;
+  text-shadow: 3px #48E5C2;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: : center;
+}
+#head{
+  margin-bottom: 0px;
+}
+
+#headblur{
+  margin-top: 0px;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  font-size: 40px;
+}
+
+/* .divchange{
+  position: relative;
+  z-index: 3;
+} */
