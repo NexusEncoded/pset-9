@@ -22,7 +22,7 @@ h1 {
   background-image: url(../images/mario.gif);
   background-size: auto;
   background-color: rgba(0, 0, 0, 0.3);
-  background-blend-mode: color-dodge;
+  background-blend-mode: darken;
 
 }
 
@@ -43,6 +43,16 @@ h1 {
      font-family: 'Major Mono Display';
     width: 45%;
 }
+
+#pic1{
+  padding: 0px;
+  background-color: rgba(0, 0, 0 ,0.6);
+  width: 500px;
+  border: 20px;
+  border: 20px solid transparent;
+  border-color:  rgba(199, 0, 57, 0.5);
+}
+
 
 .nav ul{
   list-style: none;
