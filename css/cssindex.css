@@ -1,5 +1,6 @@
 *{
     font-family: 'Faster One', cursive;
+
 }
 
 body {
@@ -24,7 +25,9 @@ h1 {
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: darken;
 
+
 }
+
 
 #head{
   margin-bottom: 0px;
