@@ -50,7 +50,7 @@ table {
 }
 
 #game {
-  
+
     width: 340px;
     text-align: center
 }
@@ -237,4 +237,14 @@ td.Yellow {
     * {
         box-shadow: none!important
     }
+}
+#restart{
+  background-color: rgba(199, 0, 57 , 0.5);
+  border: 1px solid white;
+  color: white;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 1%;
+  text-align: center;
+  width: 456px;
 }
