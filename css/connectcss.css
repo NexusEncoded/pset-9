@@ -95,7 +95,7 @@ table {
 }
 .leg,
 table {
-background: rgba(138, 21, 67 );
+background: rgba(138, 21, 55, 0.5 );
 }
 
 td:hover {
