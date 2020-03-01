@@ -33,6 +33,7 @@ h1 {
   text-shadow: 3px #48E5C2;
 }
 #canvas-container{
-   margin: 0 auto;
+  // margin: 0 auto;
   text-align: center;
+  color : red;
 }

@@ -193,7 +193,7 @@ GamePlay Draw functions
 ***********/
 function playArea(){
   // gameCanvas
-  colorRect(0,0,canvas.width, canvas.height, 'white');
+  colorRect(0,0,canvas.width, canvas.height, 'rgba(138, 21, 55, 0.3 )');
   // ball
   colorCircle();
   // paddle
@@ -229,8 +229,9 @@ function drawbricks(){
 }// drawbricks
 
 function colorCircle(){
-  canvasContext.fillStyle = 'black';
+  canvasContext.fillStyle = 'red';
   canvasContext.beginPath();
   canvasContext.arc(ballX, ballY, 10, 0, Math.PI*2, true);
   canvasContext.fill();
+
 }
