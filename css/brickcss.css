@@ -32,3 +32,13 @@ h1 {
   margin: 5%;
   text-shadow: 3px #48E5C2;
 }
+#canvas-container{
+  // margin: 0 auto;
+  text-align: center;
+}
+
+#header-container{
+  text-align: center;
+  font-size: 40px;
+	color: white;
+}
