@@ -248,3 +248,7 @@ td.Yellow {
   text-align: center;
   width: 456px;
 }
+.messages{
+  background-color: #f44336; /* Red */
+
+}
