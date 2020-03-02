@@ -281,6 +281,7 @@ function drawAll() {
 
   text("Score: " + playerScore, 10, 30, 'white', 'bold 1.4em monospace', 'left');
   text("Attempts: " + playerAttempts, 673, 30, 'white', 'bold 1.4em monospace', 'left');
+
 }
 
 function rect(topLeftX, topLeftY, boxWidth, boxHeight, fillColor) {
