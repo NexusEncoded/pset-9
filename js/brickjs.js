@@ -274,7 +274,7 @@ function drawAll() {
   //bricks
   drawBricks();
 
-  var mouseBrickCol = Math.floor(mouseX / BRICK_WIDTH)
+  var mouseBrickCol = Math.floor(mouseX / BRICK_WIDTH);
   var mouseBrickRow = Math.floor(mouseY / BRICK_HEIGHT);
 
   text(mouseBrickCol + "," + mouseBrickRow + ":" + brickIndexUnderMouse, mouseX, mouseY, 'yellow', '12px Arial');
